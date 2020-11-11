@@ -1,0 +1,24 @@
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+body {
+  width: 1140px;
+  text-align: center;
+  margin: auto;
+  background-color: aliceblue;
+}
+.list-image-element {
+  width: 480px;
+  height: 300px;
+  display: block;
+}
+.list-image {
+  display: block;
+}
+.list-image:not(:last-child) {
+  margin-bottom: 10px;
+}
+.list-image:nth-child(odd) {
+  margin-right: 10px;
+}
