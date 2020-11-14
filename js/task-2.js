@@ -8,7 +8,7 @@ const ingredients = [
 ];
 
 let items = '';
-const linkRef = document.querySelector('ul')
+const linkRef = document.querySelector('#ingredients')
 ingredients.forEach(item => {
     items = document.createElement('li');
     items.textContent = item;
