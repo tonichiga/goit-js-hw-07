@@ -17,6 +17,7 @@ const images = [
 ];
 
 const imgContainer = document.querySelector('#gallery')
+
 images.forEach(({url, alt}) => {
   const list = document.createElement('li');
   const imgLink = document.createElement('img')
